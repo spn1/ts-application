@@ -14,5 +14,5 @@ server.get('/', (req: Request, res: Response) => {
 });
 
 server.listen(port, () => {
-    return console.log(`server is listening on ${port}`);
+    return console.log(`\n\nServer is listening on port: ${port} ( ͡° ͜ʖ ͡°)\n\n`);
 });
